@@ -1,6 +1,6 @@
 # FSwIP-AD2
 
-### 1. Desenvolver rotina para importação de um cadastro de produtos e serviços a partir de um arquivo texto delimitado por tamanho (largura fixa). O arquivo de origem, bem como o arquivo de layout estão na pasta arquivos. Criar uma tabela no banco de dados FSwIP-AD2 para receber os produtos e serviços (MODIFICADO).
+### 1. Desenvolver rotina para importação de um cadastro de produtos e serviços a partir de um arquivo texto delimitado por tamanho (largura fixa). O arquivo de origem, bem como o arquivo de layout estão na pasta arquivos. Criar uma tabela (com nome PRODUTOSSERVICOS no banco de dados FSwIP-AD2) para receber os produtos e serviços (MODIFICADO).
 Premissas:
 - Deverão ser importados apenas produtos ativos cuja data de cadastro seja posterior a junho de 2002.
 - Todos os produtos deverão ter como data de cadastro, no destino, a data da execução da rotina.
