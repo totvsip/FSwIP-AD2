@@ -25,17 +25,17 @@ Requisitos:
 - Não utilizar SQL (REMOVER).
 
 
-### 3. Desenvolver rotina para exportar 3 arquivos, em formato TXT, com informações do cabeçalho e dos itens de pedidos de compra.
+### 3. Desenvolver rotina para exportar 3 arquivos, em formato TXT, com informações do cabeçalho e dos itens de pedidos de venda.
 Requisitos:
-- Grupo de Perguntas (Pedido De... Pedido Até).
+- Perguntas ao usuário (Número Pedido Inicial... Número Pedido Final).
 - TXT 01 deve conter as seguintes colunas (cabeçalho):
 	- Número do pedido
-	- Nome do fornecedor
+	- Nome do cliente
 	- Data de emissão
 	- Valor total dos itens (soma dos Itens)
 - TXT 02 deve conter as seguintes colunas (itens):
 	- Código do produto
-	- Item
+	- Número do Item
 	- Preço unitário
 	- Quantidade
 	- Valor total
