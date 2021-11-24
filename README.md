@@ -63,4 +63,4 @@ Informações adicionais:
 	- Preço
 	- Tipo
 
-Tempo máximo para solução dos exercícios: 02 horas.
+Tempo máximo para solução dos exercícios: 24 horas.
