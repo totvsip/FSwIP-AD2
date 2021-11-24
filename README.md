@@ -20,7 +20,6 @@ Requisitos:
 	- Valor total dos itens (soma dos Itens)
 	- Preço médio unitário dos itens
 	- Quantidades de volumes dos produtos
-- Não utilizar SQL (REMOVER).
 
 
 ### 3. Desenvolver rotina para exportar 3 arquivos, em formato TXT, com informações do cabeçalho e dos itens de pedidos de venda.
@@ -41,7 +40,6 @@ Requisitos:
 	- Código do produto
 	- Descrição produto
 	- Preço unitário do produto
-- Utilizar SQL (REMOVER).
 
 ### 4. Desenvolver web service em ADVPL (protocolo SOAP ou REST) para manipulação CRUD do cadastro de produtos (tabela PRODUTOSSERVICOS criada no exercício 1). A estrutura do XML deve conter tipo de operação e os campos abaixo.
 
