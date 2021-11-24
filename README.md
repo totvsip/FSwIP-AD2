@@ -7,7 +7,6 @@ Premissas:
 - Os produtos incluídos via essa rotina deverão ter um flag no destino informando que foram cadastrados via importação automática.
 - Produtos com o campo COR não preenchidos na origem deverão apresentar no destino o dado “N/A”.
 - Ao final da importação bem-sucedida, a rotina deve apresentar uma mensagem com o número de produtos importados.
-- Não utilizar SQL (REMOVER).
 
 
 ### 2. Desenvolver rotina para exportar 1 arquivo, em formato TXT, com informações do cabeçalho e dos itens de pedidos de vendas.
