@@ -5,7 +5,6 @@ Premissas:
 - Deverão ser importados apenas produtos ativos cuja data de cadastro seja posterior a junho de 2002.
 - Todos os produtos deverão ter como data de cadastro, no destino, a data da execução da rotina.
 - Os produtos incluídos via essa rotina deverão ter um flag no destino informando que foram cadastrados via importação automática.
-- Prever rotina de consistência com informação em tela para o usuário para um eventual ajuste no arquivo (REMOVER)
 - Produtos com o campo COR não preenchidos na origem deverão apresentar no destino o dado “N/A”.
 - Ao final da importação bem-sucedida, a rotina deve apresentar uma mensagem com o número de produtos importados.
 - Não utilizar SQL (REMOVER).
