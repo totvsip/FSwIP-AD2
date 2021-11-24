@@ -68,4 +68,4 @@ Informações adicionais:
 	- Preço
 	- Tipo
 
-Tempo máximo para solução dos exercícios: 24 horas.
+Tempo máximo para solução dos exercícios: 02 horas (on-line) ou 24 horas (off-line).
