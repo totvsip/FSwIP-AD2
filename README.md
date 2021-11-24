@@ -1,6 +1,6 @@
 # FSwIP-AD2 (desenvolver solução usando a linguagem C#)
 
-### 1. Desenvolver rotina para importação de um cadastro de produtos e serviços a partir de um arquivo texto delimitado por tamanho (largura fixa). O arquivo de origem, bem como o arquivo de layout estão na pasta arquivos. Criar uma tabela (com nome PRODUTOSSERVICOS no banco de dados FSwIP-AD2) para receber os produtos e serviços.
+### 1A. Desenvolver rotina para importação de um cadastro de produtos e serviços a partir de um arquivo texto delimitado por tamanho (largura fixa). O arquivo de origem, bem como o arquivo de layout estão na pasta arquivos. Criar uma tabela (com nome PRODUTOSSERVICOS no banco de dados FSwIP-AD2) para receber os produtos e serviços.
 Premissas:
 - Deverão ser importados apenas produtos ativos cuja data de cadastro seja posterior a junho de 2002.
 - Todos os produtos deverão ter como data de cadastro, no destino, a data da execução da rotina.
@@ -8,6 +8,11 @@ Premissas:
 - Produtos com o campo COR não preenchidos na origem deverão apresentar no destino o dado “N/A”.
 - Ao final da importação bem-sucedida, a rotina deve apresentar uma mensagem com o número de produtos importados.
 
+
+### 1B. Importar manualmente os registros de Pedidos de Venda e Itens de Pedidos de Venda a partir de arquivos CSV. Os arquivos CSV de origem, estão na pasta arquivos. No banco de dados FSwIP-AD2 as tabelas são PEDIDOSVENDA e ITENSPEDIDOSVENDA.
+Premissas:
+- Não importar os registros usando a linguagem C#.
+- Importar os registros usando os recursos disponíveis no SGBD.
 
 ### 2. Desenvolver rotina para exportar 1 arquivo, em formato TXT, com informações do cabeçalho e dos itens de pedidos de vendas.
 Requisitos:
